@@ -20,6 +20,7 @@ declare global {
 
   interface CreepMemory {
     role: creeps.Role;
+    room: string;
     working: boolean;
   }
 
